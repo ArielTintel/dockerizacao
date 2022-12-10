@@ -1,4 +1,4 @@
-# dockerizacao
+# https://hub.docker.com/r/arieltintel/api-ninja
 Projeto base para utilização da aplicação através do Docker
 
 ***Subindo para o Docker Hub***
