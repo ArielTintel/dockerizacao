@@ -1,0 +1,20 @@
+spring:
+
+  datasource:
+    url: jdbc:h2:file:../api-ninja/src/main/resources/ninja_db
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties.hibernate.show_sql: true
+    properties.hibernate.format_sql: true
+    hibernate.ddl-auto: update
+
+  h2:
+    console:
+      enabled: true
+      path: /h2
+
+server:
+  port: 8080
